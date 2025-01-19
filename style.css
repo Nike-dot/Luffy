@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+  }
+
+  .certificate {
+    width: 800px;
+    border: 10px solid #d2232a;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20%;
+  }
+
+  .header .left {
+    width: 20%;
+    text-align: left;
+  }
+
+  .header .left img {
+    max-width: 100%;
+  }
+
+  .header .center {
+    text-align: center;
+    width: 60%;
+  }
+
+  .header .center h1 {
+    font-size: 24px;
+    color: #d2232a;
+    margin: 0;
+  }
+  .main {
+    display: flex;
+  }
+  
+  .main-left {
+    width: 30%;
+    margin-right: 20px; /* Adjust the spacing between the images and content */
+  }
+  
+  .main-left img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: ; /* Adjust the spacing between the images */
+  }
+  .right {
+    /* border: 1px solid #d2232a; */
+    height: 100%;
+    width: 25%;
+    text-align: center;
+  }
+  
+  .logo {
+    height: 70%;
+    width: 100%;
+    /* border: 1px solid #11ef2b; */
+  }
+  
+  .right-img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .logo-text {
+    line-height: 70%;
+  }
+  .content {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .content h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .content p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+
+  .content .bold {
+    font-weight: bold;
+  }
+
+  .footer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer .signatures {
+    text-align: center;
+    width: 30%;
+  }
+
+  .footer .signatures p {
+    margin: 5px 0;
+  }
